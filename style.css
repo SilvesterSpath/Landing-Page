@@ -2,8 +2,8 @@
 
 :root {
   --modal-duration: 1s;
-  --primary-color: #30336b;
-  --secondary-color: #be2edd;
+  --primary-color: #3a1a72;
+  --secondary-color: #db364c;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: rgb(202, 202, 202);
+  background-color: #f5f3f3;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
