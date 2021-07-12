@@ -7,7 +7,11 @@ const modal = document.getElementById('modal');
 console.log(navbar);
 
 toggle.addEventListener('click', () => {
-  document.body.classList.toggle('show-nav');
+  if (navbar.style.transform != 'translateX(0%)') {
+    navbar.style.transform = 'translateX(0%)';
+  } else {
+    navbar.style.transform = 'translateX(-100%)';
+  }
 });
 
 open.addEventListener('click', () => {
